@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+}
+input{
+    background-color: pink;
+    display: block;
+}
+input:checked{
+    
+    width: 50px;
+    height: 50px;
+
+}
+
+input::before{
+    display: none;
+    content: url(smile.gif);    
+}
